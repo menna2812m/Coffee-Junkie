@@ -1,0 +1,151 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+/*nav*/
+.transparent{
+    background: rgb(0,0,0,0.5);
+
+}
+.navbar-toggler-icon{
+    border: 5px solid black;
+    padding: 30px;
+    background-color: #F15025;
+}
+.nav-link, .navbar-brand{
+color: #F15025 !important;
+font-style: italic;
+}
+navbar a:hover{
+    color: whitesmoke !important;
+}
+
+
+header{
+    height: 100vh;
+    background: url(janko.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-center{
+    height: 100vh;
+    color:whitesmoke ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-underline{
+    width: 300px;
+    border: 3px solid #F15025;
+    margin: 0px auto 20px;
+}
+.banner-center a{
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.banner-center a:hover ,
+.banner a:focus {
+    color: #F15025;
+    background-color: whitesmoke;
+}
+/*Title*/
+.title{
+    margin: 20px 0;
+}
+.text-underline{
+    width: 150px;
+    border: 3px solid #F15025;
+    margin: 0px auto 10px auto;
+
+}
+#skills{
+    padding: 40px;
+    color: #2D3142 ;
+    margin-bottom: 10px;
+}
+#skills .fa{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+#skills a{
+    margin-bottom: 20px;
+    background-color: #F15025;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#skills a:hover{
+    background-color:#CED0CE ;
+}
+
+/*about*/
+#about{
+background-color: #2D3142;
+}
+#about .pic{
+height: 600px;
+background: url(nathan.jpg);
+background-attachment: fixed;
+background-position:center ;
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 600px solid transparent;
+border-left: 100px solid #203142 ;
+}
+
+#about .box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+/*contact*/
+#contact{
+    padding: 40px;
+    background-color: whitesmoke;
+}
+#contact .form-control{
+border-radius: 0 !important;
+font-size: 20px;
+}
+
+#contact button{
+    background-color: #353531;
+    font-size: 24px;
+    color: #F15025;
+    margin-bottom:20px ;
+}
+#contact button:hover{
+    background-color: #CED0CE;
+}
+
+/*footer*/
+#footer{
+    padding: 40px;
+    color: whitesmoke;
+    background-color: #353531;
+}
+#footer .text-underline{
+    margin-bottom: 40px;
+}
+#footer .footer-icons {
+    font-size: 60px;
+    padding-top: 30px;
+}
+#footer .footer-icons a{
+    color: deepskyblue;
+    text-decoration: none;
+
+}
+#footer .footer-icons a:hover{
+    color: #F15025;
+}
+#footer .copyrights h3{
+    padding: 40px 0;
+    color:#CED0CE ;
+}
