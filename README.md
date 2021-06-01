@@ -1,2 +1,2 @@
 # Coffee-Junkie
-Caffe Website with HTML, CSS, BootStrap
+Responsive caffe Website with HTML, CSS, BootStrap
